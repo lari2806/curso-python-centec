@@ -1,5 +1,5 @@
 # curso-python-centec
-## Assuntos abordados no curso
+## Alguns assuntos abordados no curso
 
 ## Tipos de dados primitivos
 ### Inteiros : Números naturais exemplo: -4, -3, -2 , -1, 0, 1, 2, 3, 4
