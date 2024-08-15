@@ -27,7 +27,7 @@ transformacao_inteiro2 = int(texto4)
 
 print(tranformacao_inteiro1 + transformacao_inteiro2)
 
-#transformando tpo float para inteiro
+#transformando tipo float para inteiro
 valor = int(8.3)
 #Ao transformar um float em inteiro NÃO arredonda o número, somente pega a parte inteira do valor.
 print(valor)
