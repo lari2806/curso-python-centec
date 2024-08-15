@@ -10,3 +10,8 @@
 
 ## Comentários em python
 ### Utiliza-se o sinal # para indicar um comentário. Os comentários servem para dar um auxílio na vizualização do código.
+
+## Curiosidades sobre Operações Aritiméticas
+### Ao utilizar os sinais  (**) indica potencia. Por exemplo : 3 ** 5, Neste caso o lê-se 3 elevado por 5.
+
+### Ao utilizar (//) retorna o resultado inteiro. 
