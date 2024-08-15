@@ -26,3 +26,15 @@ tranformacao_inteiro1 = int(texto3)
 transformacao_inteiro2 = int(texto4)
 
 print(tranformacao_inteiro1 + transformacao_inteiro2)
+
+#transformando tpo float para inteiro
+valor = int(8.3)
+#Ao transformar um float em inteiro NÃO arredonda o número, somente pega a parte inteira do valor.
+print(valor)
+
+#Transformando tipo float para String 
+valor2 = str(2.5)
+print(valor2)
+
+print(f"Minha idade é {str(17)}")
+#O str(17) indica que o 17 é uma String 
