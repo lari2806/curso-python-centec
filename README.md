@@ -15,3 +15,10 @@
 ### Ao utilizar os sinais  (**) indica potencia. Por exemplo : 3 ** 5, Neste caso o lê-se 3 elevado por 5.
 
 ### Ao utilizar (//) retorna o resultado inteiro. 
+
+## Falha VS Erro
+### Diferença de erro e falha
+
+### Falha: Quando a saída do código não é uma saida esperada.
+
+### Erro: Quando código não está sendo executado por erro no código.
