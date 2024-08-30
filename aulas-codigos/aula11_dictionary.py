@@ -15,3 +15,27 @@ pessoa = {
 print(pessoa)
 print(pessoa["nome"])
 print(pessoa["veiculo"]["Carro"])
+print(len(pessoa))
+
+print("Utilizando dicionary em listas")
+
+lista_pessoas = [
+    #Definindo um elemento do array
+    {
+        "nome": "Larissa",
+        "idade" : 17
+    },
+    #mais um elemento
+    {
+        "nome": "Savio",
+        "idade": 16
+    }
+    
+]
+
+print("................. ELEMENTOS CONTIDOS NA LISTA .................... ")
+print(lista_pessoas, "\n")
+
+
+print("..............PRIMEIRO ELEMENTO DA LISTA.........................")
+print(lista_pessoas[0]["nome"])
