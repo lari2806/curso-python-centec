@@ -3,10 +3,11 @@ matriz = [
     [4, 5, 6],
     [7, 8, 9]
 ]
-for i in matriz:
-    print(i)
-    
+def estrutura():
+    for i in matriz:
+        print(i)
 def jogador1():
+    estrutura()
     escolha = int(input("Jogador 1 escolha uma casa:\n> "))
     if escolha == 1:
         matriz[0][0] = "X"
@@ -26,11 +27,11 @@ def jogador1():
         matriz[2][1] = "X"
     if escolha == 9:
         matriz[2][2] = "X"
-    for i in matriz:
-         print(i)
+   
     jogador2()
         
 def jogador2():
+    estrutura()
     jogador2 = int(input("Jogador 2 escolha uma casa:\n> "))
     if jogador2 == 1:
         matriz[0][0] = "O"
@@ -50,8 +51,5 @@ def jogador2():
         matriz[2][1] = "O"
     if jogador2 == 9:
         matriz[2][2] = "O"
-      
-    for i in matriz:
-     print(i)
     jogador1()
 print(jogador1())
